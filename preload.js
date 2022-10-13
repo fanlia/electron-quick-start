@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
       if (err) {
           usb.textContent = 'error: ' + err.message
       } else {
-          usb.textContent = 'ok: ' + devices.length
+          usb.textContent = 'usb length: ' + devices.length
       }
   })
 })
