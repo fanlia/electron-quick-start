@@ -16,7 +16,8 @@
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
-  "devDependencies": {
-    "electron": "^21.1.0"
+  "dependencies": {
+    "electron": "^6.1.12",
+    "usb-detection": "^4.14.1"
   }
 }
